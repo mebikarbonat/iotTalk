@@ -77,7 +77,7 @@ void loop()
   }
   
 
-  if(dht.readHumidity()>= 68.00 ){
+  if(dht.readHumidity()>= 62.00 ){
    digitalWrite(relayPin, LOW);
    delay(10000);
    digitalWrite(relayPin, HIGH); 
